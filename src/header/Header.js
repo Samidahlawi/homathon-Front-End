@@ -6,7 +6,7 @@ import './Header.scss'
 const authenticatedOptions = (
   <React.Fragment>
      {/* <Link to={`/employees/${user._id}/new`}>Create a New User</Link> */}
-    <Link to="/employees">الموظفين</Link>
+    <Link to="/employees">المصرح لهم</Link>
     <Link to="/change-password">تغيير الرقم السري</Link>
     <Link to="/sign-out">تسحيل الخروج</Link>
   </React.Fragment>
